@@ -28,14 +28,14 @@
 My initial idea sought to compare sugar and/or corn sales with diagnosed diabetes per state.
 
 After sifting through hundreds of APIs, I came to realize that such a call was a bit overambitious. 
-However, I inevitably stumbled upon a way to preserve the spirit of the project: a lovely website that utilized 2020 Census information.
+However, I inevitably stumbled upon a way to preserve the spirit of the project: a lovely website with a multitude of legitimate healthcare and government resource datasets.
 
 Not only did I have solid population data, I also gained access to a Diabetes Prevalence statistic for individuals 20 and older.
 This gave me the ability to calculate an estimate from specific columns. Most importantly, I really wanted to grow in the visualization department. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Dependencies
+## Dependencies
 
 Install the dependent packages, if not already acquired, and updated to the latest version:
 * requests
@@ -65,7 +65,15 @@ Install the dependent packages, if not already acquired, and updated to the late
 
 ## Data Dictionary
 
-here is where that will eventually go.
+| Column Name | Description | Source | Datatype |
+| ----------- | ----------- | ------ | -------- |
+| State       | ----------- | ------ | -------- |
+| Population (2020) | ----- | ------ | -------- |
+| Diabetes Prevalence | --- | ------ | -------- |
+| Diabetes Population Estimate | --- | --- | --- |
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
