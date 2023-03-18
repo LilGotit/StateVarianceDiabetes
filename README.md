@@ -6,7 +6,8 @@
     Utilize API calls to gather population data and a diabetes prevalence statistic, clean and merge this data,
     calculate an estimate population of folks diagnosed with diabetes, and create a pivot table and visualizations to accentuate what may be observed.
     <br />
-    <a href="https://github.com/LilGotit/StateVarianceDiabetes/">View Demo</a>
+    <br />
+    <a href="https://github.com/LilGotit/StateVarianceDiabetes/blob/main/StateVarianceDiabetes.ipynb">View Jupyter Notebook Demonstration</a>
   </p>
 </div>
 
@@ -25,13 +26,15 @@
 
 ## About The Project
 
-My initial idea sought to compare sugar and/or corn sales with diagnosed diabetes per state.
+My initial idea sought to compare sugar and/or corn sales with the number of diagnosed diabetics per state.
 
 After sifting through hundreds of APIs, I came to realize that such a call was a bit overambitious. 
 However, I inevitably stumbled upon a way to preserve the spirit of the project: a lovely website with a multitude of legitimate healthcare and government resource datasets.
 
 Not only did I have solid population data, I also gained access to a Diabetes Prevalence statistic for individuals 20 and older.
-This gave me the ability to calculate an estimate from specific columns. Most importantly, I really wanted to grow in the visualization department. 
+This gave me the ability to calculate an estimate from specific columns.
+
+Most importantly, I sought growth in the visualization department, to create a more refined plot. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,10 +58,10 @@ Install the dependent packages, if not already acquired, and updated to the late
 
 ## Objectives
 
-- [ ] Read in two datasets from API calls.
-- [ ] Cleaning the data, performing a pandas merge, and calculating values based on the new dataset.
-- [ ] Make one Pandas pivot table and two Matplotlib plots.
-- [ ] Build a custom data dictionary and include it either in your README or as a separate document.
+- [ ] Read in two datasets from API calls
+- [ ] Clean the data, perform a pandas merge, and calculate values based on the new dataset.
+- [ ] Make one Pandas pivot table and one Matplotlib plot
+- [ ] Build a custom data dictionary, and include it either in your README or as a separate document.
 - [ ] Thoroughly annotated Jupyter notebook with a detailed README.md
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -67,10 +70,10 @@ Install the dependent packages, if not already acquired, and updated to the late
 
 | Column Name | Description | Source | Datatype |
 | ----------- | ----------- | ------ | -------- |
-| State       | ----------- | ------ | -------- |
-| Population (2020) | ----- | ------ | -------- |
-| Diabetes Prevalence | --- | ------ | -------- |
-| Diabetes Population Estimate | --- | --- | --- |
+| State       | Geological grouping with its own government | [Census Bureau](https://census.gov/) & [County Health Rankings](http://countyhealthrankings.org) | object |
+| Population (2020) | Approximate population count, in 2020 | [Census Bureau](https://census.gov/) | int64 |
+| Diabetes Prevalence | Statistic calculated by County Health Rankings | [County Health Rankings](http://countyhealthrankings.org) | float64 |
+| Diabetes Population Estimate | Estimated diabetic population, per area | Population multiplied by non-adult reporting factor multiplied by the Diabetes Prevalence Statistic | int32 |
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,10 +88,11 @@ Project Link: [https://github.com/LilGotit/StateVarianceDiabetes/](https://githu
 
 ## Acknowledgments
 
+* [A valuable read on why we need to protect this population](https://www.hrw.org/report/2022/04/12/if-im-out-insulin-im-going-die/united-states-lack-regulation-fuels-crisis)
 * [Code Louisville - specifically, the mentors and regular contributors in the 2023 Data Analysis 2 cohort](https://codelouisville.org/)
+* [DataUSA.io - Invaluable resource for United States datasets](https://datausa.io/)
 * [Othneil Drew's README template - essential in quickly dispatching a crucial documentation requirement](https://github.com/othneildrew/Best-README-Template/)
 * [Geeks For Geeks - my much-needed escape from StackOverflow](https://www.geeksforgeeks.org/)
-* [A valuable read on why we need to protect this population](https://www.hrw.org/report/2022/04/12/if-im-out-insulin-im-going-die/united-states-lack-regulation-fuels-crisis)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
