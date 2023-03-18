@@ -3,8 +3,7 @@
 <h3 align="center">Diabetes Variance, by State</h3>
 
   <p align="center">
-    Utilize API calls to gather population data and a diabetes prevalence statistic, clean and merge this data,
-    calculate an estimate population of folks diagnosed with diabetes, and create a pivot table and visualizations to accentuate what may be observed.
+    Utilize APIs to gather population and diabetes prevalence, clean and merge this data, calculate an estimated diabetic population, and create a pivot table with visualizations for these findings.
     <br />
     <br />
     <a href="https://github.com/LilGotit/StateVarianceDiabetes/blob/main/StateVarianceDiabetes.ipynb">View Jupyter Notebook Demonstration</a>
