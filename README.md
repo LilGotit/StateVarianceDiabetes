@@ -39,7 +39,12 @@ Most importantly, I sought growth in the visualization department, to create a m
 
 ## Dependencies
 
-Install the dependent packages, if not already acquired, and updated to the latest version:
+Install the dependent packages from the requirements.txt file:
+* 
+  ```sh
+  pip install -r requirements.txt
+  ```
+Individually, if not already acquired, and updated to the latest version:
 * requests
   ```sh
   pip install requests
