@@ -40,7 +40,7 @@ Most importantly, I sought growth in the visualization department, to create a m
 ## Dependencies
 
 Install the dependent packages from the requirements.txt file:
-* 
+ 
   ```sh
   pip install -r requirements.txt
   ```
