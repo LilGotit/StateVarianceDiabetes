@@ -77,7 +77,7 @@ Individually, if not already acquired, and updated to the latest version:
 | State       | Geological grouping with its own government | [Census Bureau](https://census.gov/) & [County Health Rankings](http://countyhealthrankings.org) | object |
 | Population (2020) | Approximate population count, in 2020 | [Census Bureau](https://census.gov/) | int64 |
 | Diabetes Prevalence | Statistic calculated by County Health Rankings | [County Health Rankings](http://countyhealthrankings.org) | float64 |
-| Diabetes Population Estimate | Estimated diabetic population, per area | Population multiplied by non-adult reporting factor multiplied by the Diabetes Prevalence Statistic | int32 |
+| Diabetic Population Estimate | Estimated diabetic population, per area | Population multiplied by non-adult reporting factor multiplied by the Diabetes Prevalence Statistic | int32 |
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
