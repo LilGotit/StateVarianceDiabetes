@@ -92,11 +92,11 @@ Project Link: [https://github.com/LilGotit/StateVarianceDiabetes/](https://githu
 
 ## Acknowledgments
 
-* [A valuable read on why we need to protect this population](https://www.hrw.org/report/2022/04/12/if-im-out-insulin-im-going-die/united-states-lack-regulation-fuels-crisis)
+* [A valuable read on the need to protect this population](https://www.hrw.org/report/2022/04/12/if-im-out-insulin-im-going-die/united-states-lack-regulation-fuels-crisis)
 * [Code Louisville - specifically, the mentors and regular contributors in the 2023 Data Analysis 2 cohort](https://codelouisville.org/)
 * [DataUSA.io - Invaluable resource for United States datasets](https://datausa.io/)
 * [Othneil Drew's README template - essential in quickly dispatching a crucial documentation requirement](https://github.com/othneildrew/Best-README-Template/)
-* [Geeks For Geeks - my much-needed escape from StackOverflow](https://www.geeksforgeeks.org/)
+* [Geeks For Geeks - a much-needed escape from StackOverflow](https://www.geeksforgeeks.org/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
